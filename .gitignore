@@ -1,6 +1,10 @@
 ml_classifier.egg-info
 
 # Data
+data/*.csv
+data/preprocessed/*.csv
+data/processed/*.csv
+data/raw/raw.csv
 
 # Artifacts
 artifacts/*.joblib
