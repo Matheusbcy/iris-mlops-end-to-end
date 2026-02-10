@@ -9,7 +9,7 @@ logger = logging.getLogger("src.data_loading.load_data")
 def fetch_data() -> pd.DataFrame:
     logger.info("Fetching data...")
     
-    columns = ["sepal_length", "sepal_width", "petal_length", "petal_width"]
+    columns = ["sepal_length", "sepal_width", "petal_length", "petal_width", "species"]
     
     dataset = pd.read_csv("data/iris.data", names = columns)
     
