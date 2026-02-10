@@ -1,0 +1,12 @@
+train:
+  learning_rate: 
+  hidden_layer_1_neurons: 
+  hidden_layer_2_neurons: 
+  dropout_rate: 
+  epochs: 
+  batch_size: 
+  random_seed: 
+
+preprocess_data:
+  test_size: 
+  random_seed: 
