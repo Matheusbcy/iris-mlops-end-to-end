@@ -1,12 +1,8 @@
 train:
-  learning_rate: 0
-  hidden_layer_1_neurons: 0
-  hidden_layer_2_neurons: 0
-  dropout_rate: 0
-  epochs: 0
-  batch_size: 0
-  random_seed: 0
-
+  C: 0.1
+  kernel: "linear"
+  tol: 0.001
+  
 preprocess_data:
   test_size: 0.2
   random_seed: 42

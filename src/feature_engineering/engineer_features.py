@@ -5,9 +5,7 @@ import joblib
 import pandas as pd
 from sklearn.preprocessing import StandardScaler
 
-
 logger = logging.getLogger("src.feature_engineering.engineer_features")
-
 
 def load_preprocessed_data() -> tuple[pd.DataFrame, pd.DataFrame]:
     
