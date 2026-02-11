@@ -2,12 +2,12 @@
 
 Projeto de exemplo de **pipeline de Machine Learning com práticas de MLOps** usando o dataset Iris, com etapas de:
 
-- carregamento de dados,
-- pré-processamento,
-- engenharia de atributos,
-- treinamento,
-- avaliação,
-- e uma aplicação web para inferência.
+- Carregamento de dados,
+- Pré-processamento,
+- Engenharia de atributos,
+- Treinamento,
+- Avaliação,
+- Aplicação web para inferência.
 
 ## 📁 Estrutura do projeto
 
@@ -115,9 +115,3 @@ docker run --rm -p 5001:5001 iris-mlops
 ## 📝 Observações
 
 Este repositório é um template educacional para organizar uma solução de ML em etapas claras e reproduzíveis.
-Você pode evoluí-lo adicionando:
-
-- versionamento de dados/modelos (DVC/MLflow),
-- testes automatizados,
-- CI/CD,
-- monitoramento de modelo em produção.
